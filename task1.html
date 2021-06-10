@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        var a = 1, b = 1, c, d;
+        c = ++a; alert(c);           // 2 префиксная
+        d = b++; alert(d);           // 1 постфиксная форма
+        c = (2 + ++a); alert(c);      // 5 - в первом примере к а прибавили 1, тут еще 1
+        d = (2 + b++); alert(d);      // 4 - тут не понял
+        alert(a);                    // 3 в третьем примере увеличили до 3
+        alert(b);                    // 3 - тут не понял
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
